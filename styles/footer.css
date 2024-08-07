@@ -1,0 +1,52 @@
+
+.rodape {
+    background: var(--corprinc);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.texto-rodape {
+   
+    font-family: var(--fonte);
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    white-space: nowrap;
+   
+}
+
+.redes {
+    display: flex;
+    gap: 0.5em;
+    justify-content: flex-end;
+
+}
+
+.redes img {
+    width: 24px;
+    height: auto;
+}
+
+.redes img:hover{
+    width: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .texto-rodape{
+        font-size: 10px;
+        display: flex;
+        justify-content: flex-start;
+        white-space: wrap;
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .texto-rodape{
+        font-size: 13px;
+    }
+    
+}

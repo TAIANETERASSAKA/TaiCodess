@@ -1,0 +1,17 @@
+.swiper-slide img {
+    height: 50%;
+    width: 65%;
+    margin: 2em;
+}
+
+.swiper {
+    text-align: center;
+    z-index: 1;
+}
+
+
+.swiper-pagination{
+    position: end;
+
+}
+

@@ -1,0 +1,36 @@
+header{
+    font-family: var(--fonte);
+    background: var(--corprinc);
+    padding: 1em 1em 1em 1em;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__botao{
+    color: white;
+    text-decoration: none;
+}
+
+.cabecalho__botao:hover{
+    text-decoration:underline;
+}
+
+.cabecalho{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+    header{
+        font-size: 15px; 
+    }       
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    header{
+        font-size: 16.5px; 
+    }
+    
+}
